@@ -3,10 +3,10 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    cursor: url(/gun.cur), default;
 }
 
 body {
+    cursor: url('https://e7.pngegg.com/pngimages/887/910/png-clipart-call-of-duty-black-ops-ii-call-of-duty-world-at-war-weapon-ak-47-ak47-video-game.png'), auto;
     background-image:
         repeating-linear-gradient(to bottom, #00000029 0, #00000082 20px, transparent 20px, transparent 40px),
         repeating-linear-gradient(to right, #fff 0, #fff 20px, #0000002e 20px, transparent 40px);
