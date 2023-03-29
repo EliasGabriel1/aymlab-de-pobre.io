@@ -6,10 +6,44 @@ body {
 }
 
 body {
-    cursor: url('https://github.com/EliasGabriel1/aymlab-de-pobre.io/blob/main/public/gun.svg'), auto;
     background-image:
         repeating-linear-gradient(to bottom, #00000029 0, #00000082 20px, transparent 20px, transparent 40px),
         repeating-linear-gradient(to right, #fff 0, #fff 20px, #0000002e 20px, transparent 40px);
+    max-height: 100vh;
+    overflow: hidden;
 }
 
+body .after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 128px;
+    height: 83px;
+    cursor: url('https://raw.githubusercontent.com/EliasGabriel1/aymlab-de-pobre.io/ee30ff324f3b48e29300a29894c86009ba5b528c/public/gun.svg'), auto;
+}
 
+html body .boxcontent {
+    cursor: default;
+    position: relative;
+    z-index: 10000;
+}
+
+.copyright a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 18px;
+    color: black;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 0;
+    background: white;
+    right: 0;
+    width: 250px;
+    margin: 0px;
+}
