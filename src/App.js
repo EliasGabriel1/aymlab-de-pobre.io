@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./geral.css"
 
 function App() {
   const [score, setScore] = useState(0);
@@ -54,7 +55,7 @@ function App() {
   }, [isStarted, isFinished]);
 
   return (
-    <div>
+    <div  style={{width: "fit-content", backgroundColor: "#ffffff9c", boxShadow: '1px 2px 9px #F4AAB9',padding: "5px 10px",borderRadius: "9px", margin: "10px"}}>
       <h2>aim lab de pobre</h2>
       {!isStarted && !isFinished && (
         <button onClick={startExercise}>Começar</button>
