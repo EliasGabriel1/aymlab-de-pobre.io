@@ -1,4 +1,4 @@
-documentado por chat gpt
+obs: documentado por chat gpt
 
 Este é um exemplo de componente React que implementa um mini-jogo de pontaria chamado "aim lab de pobre". Ele usa os hooks useState, useEffect e useRef para gerenciar o estado do jogo e a interação com o usuário.
 
